@@ -2,6 +2,10 @@
     display: none;
 }
 
+#carouselExampleIndicators {
+    padding-top: 66px;
+}
+
 #about {
     width: 100%;
     height: auto;
