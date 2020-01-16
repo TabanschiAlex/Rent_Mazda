@@ -12,18 +12,35 @@
 <body>
     <header>
         <nav class="navbar navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#home">
+            <a class="navbar-brand" href="#carouselExampleIndicators">
                 <img src="img/logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
                 <span class="align-middle">Mazda Service</span>
             </a>
-            <div class="nav nav-pills mr-auto" id="nav-tab" role="tablist">
-                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#carouselExampleIndicators" role="tab" aria-controls="nav-home" aria-selected="true">Главная</a>
-                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#about" role="tab" aria-controls="nav-profile" aria-selected="false">О нас</a>
-                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Наши преимущества</a>
-                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Наши Услуги</a>
-                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Отзывы</a>
-                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Контакты</a>
-            </div>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#carouselExampleIndicators">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">О нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#adv">Преимущества</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Контакты</a>
+                </li>
+                <li class="menu-mobile nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Навигация
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#carouselExampleIndicators">Главная</a>
+                        <a class="dropdown-item" href="#about">О нас</a>
+                        <a class="dropdown-item" href="#adv">Преимущества</a>
+                        <a class="dropdown-item" href="#contact">Контакты</a>
+                    </div>
+                </li>
+            </ul>
         </nav>
     </header>
     
@@ -105,13 +122,19 @@
                         Мы предоставляем различные услуги по ремонту и техническому обслуживанию автомобилей всех марок и моделей, даже экзотических и винтажных.
                     </p>
                 </div>
-                <div>
+                <div class="img-full">
                     <img src="img/025-document.png" height="200px" alt="car">
+                </div>
+                <div class="img-mobile">
+                    <img src="img/025-document.png" height="150px" alt="car">
                 </div>
             </div>
             <div class="col-12 col-md-6 d-flex justify-content-start p-0 mb-5">
-                <div>
-                    <img src="img/024-car.png" height="200px" alt="engine">
+                <div class="img-full">
+                    <img src="img/024-car.png" height="200px" alt="car">
+                </div>
+                <div class="img-mobile">
+                    <img src="img/024-car.png" height="150px" alt="car">
                 </div>
                 <div class="ml-5 align-middle align-self-center">
                     <p>
@@ -129,13 +152,19 @@
                         Car Repair предлагает качественные программы поддержки для любых транспортных средств, которые позволяют им всегда оставаться полностью функциональными.
                     </p>
                 </div>
-                <div>
-                    <img src="img/018-lug.png" height="200px" alt="lug">
+                <div class="img-full">
+                    <img src="img/018-lug.png" height="200px" alt="car">
+                </div>
+                <div class="img-mobile">
+                    <img src="img/018-lug.png" height="150px" alt="car">
                 </div>
             </div>
             <div class="col-12 col-md-6 d-flex justify-content-start p-0 mb-5">
-                <div>
-                    <img src="img/034-battery.png" height="200px" alt="battery">
+                <div class="img-full">
+                    <img src="img/034-battery.png" height="200px" alt="car">
+                </div>
+                <div class="img-mobile">
+                    <img src="img/034-battery.png" height="150px" alt="car">
                 </div>
                 <div class="ml-5 align-middle align-self-center">
                     <p>
@@ -148,60 +177,16 @@
         </div>
     </section>
     
-    <!-- OUR SERVICES -->
+    <!-- OUR CONTACTS -->
     
-    <section id="our-service" class="container-fluid text-center">
-        <h2>НАШИ ПРЕИМУЩЕСТВА</h2>
-        <div class="row">
-            <div class="col-12 col-md-6 d-flex justify-content-end p-0 mb-5">
-                <div class="ml-5 align-middle align-self-center">
-                    <p>
-                        <b>Все марки АВТО</b>
-                        <br>
-                        Мы предоставляем различные услуги по ремонту и техническому обслуживанию автомобилей всех марок и моделей, даже экзотических и винтажных.
-                    </p>
-                </div>
-                <div>
-                    <img src="img/025-document.png" height="200px" alt="car">
-                </div>
-            </div>
-            <div class="col-12 col-md-6 d-flex justify-content-start p-0 mb-5">
-                <div>
-                    <img src="img/024-car.png" height="200px" alt="engine">
-                </div>
-                <div class="ml-5 align-middle align-self-center">
-                    <p>
-                        <b>ВАРИАНТ СЕРВИСА</b>
-                        <br>
-                        Основным принципом нашей работы является предоставление широкого спектра качественных услуг по ремонту автомобилей, и мы занимаемся этим с первого дня.
-                    </p>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 d-flex justify-content-end p-0 mb-5">
-                <div class="ml-5 align-middle align-self-center">
-                    <p>
-                        <b>ПОДДЕРЖКА КАЧЕСТВА</b>
-                        <br>
-                        Car Repair предлагает качественные программы поддержки для любых транспортных средств, которые позволяют им всегда оставаться полностью функциональными.
-                    </p>
-                </div>
-                <div>
-                    <img src="img/018-lug.png" height="200px" alt="lug">
-                </div>
-            </div>
-            <div class="col-12 col-md-6 d-flex justify-content-start p-0 mb-5">
-                <div>
-                    <img src="img/034-battery.png" height="200px" alt="battery">
-                </div>
-                <div class="ml-5 align-middle align-self-center">
-                    <p>
-                        <b>АКСЕССУАРЫ</b>
-                        <br>
-                        В нашем автосервисе вы также можете купить любые аксессуары, необходимые для вашего автомобиля, включая автомобильные шины и фильтры.
-                    </p>
-                </div>
-            </div>
+    <section id="contact" class="bg-dark text-center d-flex justify-content-center">
+        <div>
+            <h2>Контакты</h2>
+            <p>Адрес: Бельцы, Молдова</p>
+            <p>373-2345-6789</p>
+            <p>373-2345-6789</p>
         </div>
     </section>
+    
 </body>
 </html>

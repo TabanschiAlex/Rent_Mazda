@@ -1,3 +1,7 @@
+.menu-mobile{
+    display: none;
+}
+
 #about {
     width: 100%;
     height: auto;
@@ -42,10 +46,14 @@ img {
     color: silver;
 }
 
+.img-mobile {
+    display: none;
+}
+
 #adv {
     height: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 #adv h2 {
@@ -59,28 +67,104 @@ img {
     color: black;
 }
 
-#our-service {
+#contact {
     background-image: url('../img/mazda-3-main-1564667443.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
-#our-service h2 {
+#contact div {
+    width: 50%;
+    background: black;
+    opacity: 0.5;
+}
+
+#contact h2 {
     font-size: 60px;
     color: white;
     margin-bottom: 5%;
 }
 
-.card {
-    width: 100%;
-    height: auto;
+#contact p {
+    font-size: 40px;
+    color: white;
 }
 
 @media screen and (max-width:910px) {
-    .nav {
+    .nav-item {
         display: none;
+    }
+    
+    .menu-mobile {
+        display: block;
+    }
+    
+    nav a span {
+        display: none;
+    }
+    
+    .about-text {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #about h2 {
+        font-size: 30px;
+        color: white;
+    }
+
+    #about p {
+        font-size: 15px;
+        color: silver;
+    }
+
+    .grid h3 {
+        font-size: 30px;
+        color: white;
+        margin-top: 10%;
+    }
+
+    .grid p {
+        margin-left: 10%;
+        margin-right: 10%;
+        color: white;
+    }
+    
+    #adv h2 {
+        font-size: 30px;
+        color: black;
+        margin-bottom: 5%;
+    }
+
+    .img-full {
+        display: none;
+    }
+    
+    .img-mobile {
+        display: flex;
+    }
+    
+    
+    #adv p {
+        font-size: 15px;
+        color: black;
+    }
+
+    #contact div {
+        width: 80%;
+    }
+
+    #contact h2 {
+        font-size: 30px;
+        color: white;
+        margin-bottom: 5%;
+    }
+
+    #contact p {
+        font-size: 20px;
+        color: white;
     }
 }
