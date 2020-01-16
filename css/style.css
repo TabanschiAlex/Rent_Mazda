@@ -1,13 +1,86 @@
 #about {
     width: 100%;
-    height: 710px;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
     align-content: center;
 }
 
+.about-text {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 #about h2 {
-    font-size: 100px;
+    font-size: 60px;
+    color: white;
 }
 
 #about p {
-    font-size: 50px;
+    font-size: 30px;
+    color: silver;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    background: #DC143C;
+}
+
+.grid h3 {
+    font-size: 60px;
+    color: white;
+    margin-top: 10%;
+}
+
+.grid p {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: silver;
+}
+
+#adv {
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#adv h2 {
+    font-size: 60px;
+    color: black;
+    margin-bottom: 5%;
+}
+
+#adv p {
+    font-size: 20px;
+    color: black;
+}
+
+#our-service {
+    background-image: url('../img/mazda-3-main-1564667443.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#our-service h2 {
+    font-size: 60px;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:910px) {
+    .nav {
+        display: none;
+    }
 }
